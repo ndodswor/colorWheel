@@ -1,3 +1,14 @@
+/*Color Wheel ----------------------
+Algorithmic version of a color wheel
+Mixes R, G, B on a canvas element
+based on user mouse movements
+uses WSAD to control brush size
+and zoom.
+Current dissatisfactions:
+overflow is a suboptimal representation of color loss
+equation is not clear enough
+-----------------------------------*/
+
 //initialize PAINTBRUSH module (controls drawing on canvas)
 var PAINTBRUSH = (function() {
 
